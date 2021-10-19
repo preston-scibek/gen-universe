@@ -49,5 +49,18 @@
 
 #noxus-card:hover {
     transform: translateY(-3%);
-    box-shadow: 0 0em 0.2em rgb(255, 255, 213)
+    box-shadow: 0 0em 0.2em #b4cffa;
+}
+
+/* Ionia Card */
+#ionia-card {
+    background: #ffd27f;
+    background: url('../assets/images/ionia_bg.jpg');
+    background-size: cover;
+    background-position: 10.25em;
+}
+
+#ionia-card:hover {
+    transform: translateY(-3%);
+    box-shadow: 0 0em 0.2em #b4cffa;
 }
