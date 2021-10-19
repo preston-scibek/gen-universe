@@ -4,8 +4,8 @@
     cursor: pointer;
     transition: 0.3s;
 
-    width: 8em;
-    height: 10em;
+    width: 6em;
+    height: 8em;
     margin-right: 0.5em;
 
     border-radius: 1em;
@@ -31,7 +31,7 @@
     background: #b4cffa;
     background: url('../assets/images/freljord_bg.jpg');
     background-size: cover;
-    background-position: 15em;
+    background-position: 12em;
 }
 
 #freljord-card:hover {
@@ -44,7 +44,7 @@
     background: #3D0000;
     background: url('../assets/images/noxus_bg.jpg');
     background-size: cover;
-    background-position: 20em;
+    background-position: 16em;
 }
 
 #noxus-card:hover {
