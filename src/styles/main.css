@@ -1,0 +1,55 @@
+@font-face {
+    font-family: LeagueFont;
+    src: url('/src/assets/fonts/friz-quadrata.otf');
+}
+  
+:root {
+    --background: #0a0a0c;
+    --foreground: #111111;
+    --borders: #1A1A1A;
+    --titles: #BBB;
+    --texts: #CCC;
+}
+
+body, html {
+    margin: 0;
+    background: var(--background);
+}
+
+main {
+    padding-top: 10vh;
+
+    height: 100vh;
+}
+
+section {
+    font-size: 2em;
+    font-family: 'LeagueFont';
+    color: var(--texts);
+
+    padding: 3%;
+}
+
+section div {
+    display: inline-block;
+}
+
+nav {
+    position: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--foreground);
+
+    border-bottom: 0.2em solid var(--borders);
+    height: 10vh;
+    width: 100%;
+}
+
+nav div {
+    color: var(--titles);
+    font-family: 'LeagueFont';
+    font-size: 1.5em;
+}
