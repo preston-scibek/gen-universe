@@ -12,7 +12,7 @@
 /* Freljord Card */
 #freljord-card {
     background: #b4cffa;
-    background: url('../src/assets/images/freljord_bg.jpg');
+    background: url('./src/assets/images/freljord_bg.jpg');
     background-size: cover;
     background-position: 15em;
 }
@@ -25,7 +25,7 @@
 /* Noxus Card */
 #noxus-card {
     background: #3D0000;
-    background: url('../src/assets/images/noxus_bg.jpg');
+    background: url('./src/assets/images/noxus_bg.jpg');
     background-size: cover;
     background-position: 20em;
 }
