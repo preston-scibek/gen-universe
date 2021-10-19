@@ -1,7 +1,7 @@
 @font-face {
-    
+
     font-family: LeagueFont;
-    src: url('./assets/fonts/friz-quadrata.otf');
+    src: url('../assets/fonts/friz-quadrata.otf');
 }
   
 :root {
