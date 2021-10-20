@@ -15,6 +15,7 @@ body, html {
     margin: 0;
     background: var(--background);
     font-family: 'LeagueFont';
+    color: var(--texts);
 }
 
 p {
