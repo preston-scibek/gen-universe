@@ -37,6 +37,7 @@
 
 #freljord-card:hover {
     transform: translateY(-3%);
+    
 }
 
 /* Noxus Card */
@@ -179,6 +180,7 @@
 
 #shadow-isles-card:hover {
     transform: translateY(-3%);
+    
 }
 
 /* Void Card */
@@ -191,6 +193,7 @@
 
 #void-card:hover {
     transform: translateY(-3%);
+    
 }
 
 /* Unnafiliated Card */
