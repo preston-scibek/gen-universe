@@ -91,15 +91,28 @@
     
 }
 
-/* P&Z Card */
-#p-z-card {
+/* Zaun Card */
+#zaun-card {
     background: #bfaf86;
-    background: url('../assets/images/piltover_zaun_bg.jpg');
+    background: url('../assets/images/zaun_bg.jpg');
     background-size: cover;
     background-position: 11em;
 }
 
-#p-z-card:hover {
+#zaun-card:hover {
+    transform: translateY(-3%);
+    
+}
+
+/* Piltover Card */
+#piltover-card {
+    background: #bfaf86;
+    background: url('../assets/images/piltover_bg.jpg');
+    background-size: cover;
+    background-position: 11em;
+}
+
+#piltover-card:hover {
     transform: translateY(-3%);
     
 }
@@ -180,4 +193,15 @@
     transform: translateY(-3%);
 }
 
+/* Unnafiliated Card */
+#unnafiliated-card {
+    background: #bfaf86;
+    background: url('../assets/images/unnafiliated_bg.jpg');
+    background-size: cover;
+    background-position: 11em;
+}
 
+#unnafiliated-card:hover {
+    transform: translateY(-3%);
+    
+}
