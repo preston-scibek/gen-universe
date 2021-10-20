@@ -14,6 +14,11 @@
 body, html {
     margin: 0;
     background: var(--background);
+    font-family: 'LeagueFont';
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body h1 {
@@ -25,4 +30,9 @@ body h1 {
     border-bottom: 0.2em solid var(--borders);
     height: 10vh;
     width: 100%;
+}
+
+#wrapper {
+    width: 100%;
+    background: #111111;
 }
