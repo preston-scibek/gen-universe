@@ -1,6 +1,6 @@
 @font-face {
     font-family: LeagueFont;
-    src: url('../assets/fonts/friz-quadrata.otf');
+    src: url('../../assets/fonts/friz-quadrata.otf');
 }
 
 :root {
@@ -20,7 +20,9 @@ body, html {
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+img {
+	width: 100%;
+}
 body h1 {
     display: flex;
     align-items: center;
@@ -33,6 +35,6 @@ body h1 {
 }
 
 #wrapper {
-    width: 100%;
+    width: 80%;
     background: #111111;
 }
