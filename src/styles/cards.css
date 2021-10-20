@@ -8,6 +8,7 @@
     height: 8em;
     margin-right: 0.5em;
 
+    font-size: 1.35rem;
     border-radius: 1em;
 }
 
@@ -23,7 +24,7 @@
     bottom: 0;
 
     border-radius: 0 0 1em 1em;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.55);
 }
 
 /* Freljord Card */
@@ -36,7 +37,6 @@
 
 #freljord-card:hover {
     transform: translateY(-3%);
-    box-shadow: 0 0 0.2em #b4cffa;
 }
 
 /* Noxus Card */
@@ -44,12 +44,12 @@
     background: #3D0000;
     background: url('../assets/images/noxus_bg.jpg');
     background-size: cover;
-    background-position: 16em;
+    background-position: 10em;
 }
 
 #noxus-card:hover {
     transform: translateY(-3%);
-    box-shadow: 0 0em 0.2em #b4cffa;
+    
 }
 
 /* Ionia Card */
@@ -62,5 +62,122 @@
 
 #ionia-card:hover {
     transform: translateY(-3%);
-    box-shadow: 0 0em 0.2em #b4cffa;
+    
 }
+
+/* Demacia Card */
+#demacia-card {
+    background: #fffdf8;
+    background: url('../assets/images/demacia_bg.jpg');
+    background-size: cover;
+    background-position: 9em;
+}
+
+#demacia-card:hover {
+    transform: translateY(-3%);
+    
+}
+
+/* Ixtal Card */
+#ixtal-card {
+    background: #bfaf86;
+    background: url('../assets/images/ixtal_bg.jpg');
+    background-size: cover;
+    background-position: 9em;
+}
+
+#ixtal-card:hover {
+    transform: translateY(-3%);
+    
+}
+
+/* P&Z Card */
+#p-z-card {
+    background: #bfaf86;
+    background: url('../assets/images/piltover_zaun_bg.jpg');
+    background-size: cover;
+    background-position: 11em;
+}
+
+#p-z-card:hover {
+    transform: translateY(-3%);
+    
+}
+
+/* Targon Card */
+#targon-card {
+    background: #b57df5;
+    background: url('../assets/images/targon_bg.jpg');
+    background-size: cover;
+    background-position: 14em;
+}
+
+#targon-card:hover {
+    transform: translateY(-3%);
+    
+}
+
+/* Shurima Card */
+#shurima-card {
+    background: #f3f57d;
+    background: url('../assets/images/shurima_bg.jpg');
+    background-size: cover;
+    background-position: 10.6em;
+}
+
+#shurima-card:hover {
+    transform: translateY(-3%);
+    
+}
+
+/* Bilgewater Card */
+#bilgewater-card {
+    background: #f3f57d;
+    background: url('../assets/images/bilgewater_bg.jpg');
+    background-size: cover;
+    background-position: 21em;
+}
+
+#bilgewater-card:hover {
+    transform: translateY(-3%);
+    
+}
+
+/* Bandle Card */
+#bandle-card {
+    background: #f3f57d;
+    background: url('../assets/images/bandle_bg.png');
+    background-size: cover;
+    background-position: 10.3em;
+}
+
+#bandle-card:hover {
+    transform: translateY(-3%);
+    
+}
+
+/* Shadow Isles Card */
+#shadow-isles-card {
+    background: #7df5b3;
+    background: url('../assets/images/shadow-isles_bg.jpg');
+    background-size: cover;
+    background-position: 15em;
+}
+
+#shadow-isles-card:hover {
+    transform: translateY(-3%);
+}
+
+/* Void Card */
+#void-card {
+    background: #f57df1;
+    background: url('../assets/images/void_bg.jpg');
+    background-size: cover;
+    background-position: 11em;
+}
+
+#void-card:hover {
+    transform: translateY(-3%);
+}
+
+
