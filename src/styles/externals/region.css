@@ -2,7 +2,7 @@
     font-family: LeagueFont;
     src: url('../assets/fonts/friz-quadrata.otf');
 }
-  
+
 :root {
     --background: #0a0a0c;
     --foreground: #111111;
@@ -16,40 +16,13 @@ body, html {
     background: var(--background);
 }
 
-main {
-    padding-top: 10vh;
-    height: 100vh;
-}
-
-section {
-    font-size: 1.5rem;
-    font-family: 'LeagueFont';
-    color: var(--texts);
-
-    padding: 3%;
-}
-
-section div {
-    display: inline-block;
-}
-
-nav {
-    position: fixed;
-    z-index: 5;
-    
+body h1 {
     display: flex;
-    justify-content: center;
     align-items: center;
-
+    justify-content: center;
     background: var(--foreground);
 
     border-bottom: 0.2em solid var(--borders);
     height: 10vh;
     width: 100%;
-}
-
-nav div {
-    color: var(--titles);
-    font-family: 'LeagueFont';
-    font-size: 1.5em;
 }
