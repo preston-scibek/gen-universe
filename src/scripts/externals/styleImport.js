@@ -1,10 +1,8 @@
-function ImportStyle(path) {
-    var css = document.createElement('link');
-    css.rel = 'stylesheet';
-    css.type = 'text/css';
-    css.media = 'screen';
-    css.href = path;
-    document.getElementsByTagName('head')[0].appendChild(css);
+async function ImportStyle(path) { 
+    let styleContent = "";
+    await fetch(path).then(data => data.text()).then(response => styleContent = response);
+
+    document.body.innerHTML += `<style>${styleContent}</style>`;
     return;
 }
 
