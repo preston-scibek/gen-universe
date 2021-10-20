@@ -19,5 +19,3 @@ document.querySelectorAll(".region-card").forEach((card, index) => {
         window.location.href = `https://generalbloodsword.com/universe/regions/${pageInfo}`;
     })
 });
-
-
