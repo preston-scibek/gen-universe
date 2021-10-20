@@ -3,10 +3,21 @@ interface UniverseEventCard {
     soundbase: string
 }
 
-var test: UniverseEventCard = {
-    region: "",
-    soundbase: ""
-};
+/* Get Cards content */
+const CARDS: UniverseEventCard[] = Array.from(document.querySelectorAll(".region-card"))
+.map((card: any) => {
+    return {
+        region: card.childNodes[1].textContent,
+        soundbase: "-"
+    }
+});
 
-console.log(test);
+/* Apply event redirect */
+document.querySelectorAll(".region-card").forEach((card, index) => {
+    card.addEventListener("click", () => {
+        let pageInfo: string = CARDS[index].region.toLowerCase().replace(" ", "-");
+        window.location.href = `https://generalbloodsword.com/universe/regions/${pageInfo}`;
+    })
+});
+
 
