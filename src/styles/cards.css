@@ -119,14 +119,14 @@
 }
 
 /* Targon Card */
-#targon-card {
+#mount-targon-card {
     background: #b57df5;
-    background: url('../assets/images/targon_bg.jpg');
+    background: url('../assets/images/mount-targon_bg.jpg');
     background-size: cover;
     background-position: 14em;
 }
 
-#targon-card:hover {
+#mount-targon-card:hover {
     transform: translateY(-3%);
     
 }
