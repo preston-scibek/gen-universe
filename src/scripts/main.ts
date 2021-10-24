@@ -16,6 +16,9 @@ const CARDS: UniverseEventCard[] = Array.from(document.querySelectorAll(".region
 document.querySelectorAll(".region-card").forEach((card, index) => {
     card.addEventListener("click", () => {
         let pageInfo: string = CARDS[index].region.toLowerCase().replace(" ", "-");
-        window.location.href = `https://generalbloodsword.com/universe/regions/${pageInfo}`;
+	if (pageInfo === "runeterra"){
+	    pageInfo = "unaffiliated";
+	}
+	window.location.href = `https://generalbloodsword.com/universe/regions/${pageInfo}`;
     })
 });
